@@ -1,0 +1,36 @@
+.page-container {
+  /* border: 1px solid red; */
+  height: 732px;
+}
+
+.back-button {
+  padding: 0 1rem;
+  width: 44px;
+  height: 31px;
+
+  background-color: #01c063;
+  border-radius: 10px;
+}
+
+.buttons-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.save-button {
+  width: 80%;
+  background-color: #01c063;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  padding: 10px;
+
+  color: #fffcfc;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}

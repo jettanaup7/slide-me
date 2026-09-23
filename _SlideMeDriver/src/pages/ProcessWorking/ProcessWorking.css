@@ -1,0 +1,134 @@
+.proworking-container {
+  height: 732px;
+  padding: 10px;
+}
+
+.back-button-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.status-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  margin-top: 1.5rem;
+
+  overflow-y: scroll;
+  height: 300px;
+}
+
+.status-container {
+  height: fit-content;
+  width: 347px;
+  padding: 10px;
+  padding-bottom: 0px;
+
+  background-color: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+/* ตัว container หลัก */
+.status-bar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+
+  .working-button {
+    width: 108px;
+    padding: 5px;
+    height: 43px;
+
+    margin-left: 1rem;
+
+    background-color: #01c063;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+
+    color: #fff;
+  }
+  .working-button:hover {
+    background-color: #10804a;
+  }
+}
+
+.location-container {
+  height: auto;
+  width: 347px;
+  padding: 10px;
+
+  background-color: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.proworking-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+
+  .working-button {
+    width: 120px;
+    padding: 10px;
+    height: 50px;
+
+    background-color: #01c063;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+
+    color: #fff;
+  }
+
+  .working-button:hover {
+    background-color: #10804a;
+  }
+}
+
+/* ไอคอนด้านซ้าย */
+.status-icon {
+  font-size: 24px;
+  color: black;
+  margin-right: 10px;
+}
+
+/* ส่วน progress bar */
+.status-progress {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.progress-track {
+  width: 100%;
+  height: 6px;
+  background: #dcdcdc;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #28a745;
+  transition: width 0.3s ease;
+}
+
+.progress-end {
+  width: 14px;
+  height: 14px;
+  background: #28a745;
+  border-radius: 50%;
+  position: absolute;
+  left: 140px;
+}

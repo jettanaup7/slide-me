@@ -1,0 +1,129 @@
+.IdVerification-container {
+  height: 732px;
+}
+
+.ID-reccomend {
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* Image preview styles */
+.preview-container {
+  width: 330px;
+  height: 200px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #aaa;
+  background-color: #f3f3f3;
+  margin: 10px;
+}
+
+.preview-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ทำให้ภาพเติมเต็มกรอบ */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.id-camera-label {
+  display: inline-block;
+  width: 150px;
+  padding: 10px 20px;
+  margin: 10px;
+
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #007bff;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+  span {
+    font-size: 18px;
+  }
+}
+
+.id-camera-label:hover {
+  background-color: #0056b3;
+}
+
+.ID-label-container {
+  .id-submit {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    padding: 10px 20px;
+    margin: 10px;
+    width: 90%;
+
+    color: white;
+
+    background-color: #01c063;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .id-submit:hover {
+    background-color: #10804a;
+  }
+}
+
+/* Form submission styles */
+.IdVerification-container form {
+  text-align: center;
+}
+
+/* Wrapper for image preview */
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Image styling */
+.image-wrapper img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Delete button styling */
+.delete-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.delete-button:hover {
+  background-color: rgba(255, 0, 0, 1);
+}

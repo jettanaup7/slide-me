@@ -1,0 +1,178 @@
+.register-container {
+  text-align: center;
+  align-self: center;
+  gap: 1rem;
+  height: 780px;
+  overflow-y: scroll;
+}
+
+.register-text-center {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+  font-weight: bold;
+  color: #01c063;
+}
+
+.register-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+
+  .input-container {
+    text-align: left;
+  }
+
+  .input-container .title {
+    margin-left: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+  }
+
+  .input-container .register-input-bar {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 343px;
+    height: 60px;
+
+    padding: 20px;
+    font-size: 18px;
+
+    background-color: #ffffff;
+    border: 3px solid rgba(200, 200, 200, 0.5);
+    border-radius: 10px;
+  }
+
+  .input-container .register-input-bar-bday {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 343px;
+    height: 60px;
+
+    padding: 0px 20px;
+    font-size: 18px;
+
+    background-color: #ffffff;
+    border: 3px solid rgba(200, 200, 200, 0.5);
+    border-radius: 10px;
+  }
+
+  .input-container .register-checkbox {
+    -webkit-appearance: none; /* Remove default checkbox styling in WebKit browsers */
+    -moz-appearance: none; /* Remove default checkbox styling in Firefox */
+    appearance: none; /* Remove default checkbox styling */
+
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5rem;
+
+    border: none;
+    background-color: #e3e3e3;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2); /* Focus outline */
+    border-radius: 2px;
+
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .input-container .register-checkbox:checked {
+    background-color: #01c063; /* Black background for checked state */
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"%3E%3Cpath d="M20.285 6.285a1 1 0 00-1.57-1.14L9.5 14.55l-3.71-3.71a1 1 0 00-1.42 1.42l4.5 4.5a1 1 0 001.42 0l9-9z"%3E%3C/path%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .input-container .register-checkbox:focus {
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2); /* Focus outline */
+  }
+
+  .input-container .register-input-bar-1 {
+    width: 259.317px;
+    height: 50px;
+
+    border-radius: 10px;
+    background-color: #ffffff;
+
+    padding: 20px;
+    font-size: 18px;
+
+    background-color: #ffffff;
+    border: 3px solid rgba(200, 200, 200, 0.5);
+    border-radius: 10px;
+  }
+
+  .start-button {
+    width: 340px;
+    height: 60px;
+
+    padding: 15px;
+    font-size: 18px;
+
+    background: #01c063;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;   
+  }
+  .start-button:hover {
+    background-color: #10804a;
+  }
+
+  .start-button-disabled {
+    width: 340px;
+    height: 60px;
+
+    padding: 15px;
+    font-size: 18px;
+
+    background: #d9d9d9;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+
+.send-otp {
+  margin-left: 10px;
+  padding: 8px 10px;
+
+  color: white;
+  cursor: pointer;
+
+  background: #01c063;
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.send-otp:hover {
+  background-color: #218838;
+}

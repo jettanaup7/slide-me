@@ -1,0 +1,160 @@
+/* Container */
+.login-container {
+  text-align: center;
+  align-self: center;
+  gap: 1rem;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.login-logo {
+  width: 300px; /* ปรับขนาดของโลโก้ */
+  height: auto;
+}
+
+.login-input-container {
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.login-input {
+  width: 90%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  background-color: #ffffff;
+  border: 2px solid rgba(200, 200, 200, 0.5);
+  border-radius: 10px;
+}
+
+.login-input-1 {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  background-color: #ffffff;
+  border: 2px solid rgba(200, 200, 200, 0.5);
+  border-radius: 10px;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.send-otp {
+  margin-left: 10px;
+  padding: 8px 10px;
+
+  color: white;
+  cursor: pointer;
+
+  background: #01c063;
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.send-otp:hover {
+  background-color: #218838;
+}
+
+.submit-btn {
+  width: 50px;
+  height: 50px;
+  margin-top: 2.5rem;
+
+  color: white;
+  cursor: pointer;
+
+  background: #01c063;
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.error-message {
+  color: red;
+  margin-top: 1rem;
+}
+
+/* Divider */
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.divider span {
+  padding: 0 10px;
+}
+
+/* Social Login */
+.social-login {
+  display: flex; /* ใช้ flexbox เพื่อจัดเรียงปุ่ม */
+  justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+  gap: 15px; /* เพิ่มระยะห่างระหว่างปุ่ม */
+  margin-top: 20px; /* ระยะห่างจากด้านบน */
+  border: none; /* ลบเส้นขอบ */
+}
+
+.social-btn {
+  width: 50px; /* ปรับขนาดปุ่ม */
+  height: 50px;
+  display: flex; /* จัดไอคอนให้อยู่ตรงกลาง */
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* ทำให้ปุ่มเป็นวงกลม */
+  font-size: 24px; /* ขนาดของไอคอน */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.social-btn:hover {
+  transform: scale(1.1); /* เพิ่มเอฟเฟกต์ขยาย */
+  opacity: 0.9; /* ลดความเข้มเล็กน้อย */
+}
+
+/* ปุ่มแต่ละแบบ */
+.social-btn.google {
+  background-color: #db4437;
+}
+
+.social-btn.facebook {
+  background-color: #4267b2;
+}
+
+.social-btn.apple {
+  background-color: black;
+}
+
+/* Footer */
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup-link {
+  color: #28a745;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
