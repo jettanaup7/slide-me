@@ -1,0 +1,91 @@
+.list-container {
+  /* border: 1px solid red; */
+  height: 732px;
+}
+
+.order-list {
+  padding: 20px;
+}
+
+.order-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  .order-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    height: 48px;
+    width: 110px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    font-size: 0.95rem;
+  }
+
+  .button-active {
+    background-color: #006b3d;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+}
+.order-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  max-height: 642px;
+  scroll-behavior: smooth;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  height: 88px;
+  width: 99%;
+  margin-bottom: 10px;
+
+  background-color: #ffffff;
+  border: 2px solid rgba(200, 200, 200, 0.5);
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.order-icon {
+  height: 60px;
+  width: 60px;
+  background-image: url("../../assets/slide-car.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.order-details {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.order-detail2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-details p {
+  margin: 0;
+}
+
+.order-amount {
+  font-weight: bold;
+}
+
+.rebook {
+  color: #28a745;
+  font-size: 14px;
+  cursor: pointer;
+}

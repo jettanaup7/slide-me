@@ -1,0 +1,52 @@
+.Navbar-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0.5rem 0;
+  height: 70px;
+  background-color: #ffffff;
+
+  button {
+    font-size: 36px;
+    width: 4rem;
+    height: 3.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    border: none;
+  }
+}
+
+.btn-onclick {
+  background-color: #10804a;
+  border-radius: 0.5rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-unselect {
+  background-color: #01c063;
+  border-radius: 0.5rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.home {
+  background-image: url(../../assets/navbar-icon/home-icon.png);
+}
+
+.menu {
+  background-image: url(../../assets/navbar-icon/menu-icon.png);
+}
+
+.noti {
+  background-image: url(../../assets/navbar-icon/noti-icon.png);
+}
+
+.request {
+  background-image: url(../../assets/navbar-icon/req-icon.png);
+}
+
+.profile {
+  background-image: url(../../assets/navbar-icon/profile-icon.png);
+}

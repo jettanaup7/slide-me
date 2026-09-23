@@ -1,0 +1,145 @@
+.home-container {
+  /* border: 1px solid red; */
+  height: 732px;
+}
+
+.banner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 10px;
+
+  .images-container {
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    transition: scroll 0.3s ease-in-out;
+  }
+
+  .images-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .image {
+    width: 340px;
+    height: 123px;
+    margin: 5px;
+    border-radius: 8px;
+  }
+
+  .nav-btn {
+    color: inherit;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+    background-color: #1d3c8f;
+    border-radius: 6px;
+    height: 123px;
+    width: 30px;
+    margin: 5px;
+  }
+}
+
+.banner-image {
+  width: 90%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.buttons-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+
+  .start-button {
+    width: 340px;
+    height: 60px;
+
+    padding: 15px;
+    font-size: 18px;
+
+    background: #01c063;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .start-button:hover {
+    background-color: #10804a;
+  }
+
+  .start-button-disabled {
+    width: 340px;
+    height: 60px;
+
+    padding: 15px;
+    font-size: 18px;
+
+    background: #d9d9d9;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+
+.buttons-container1 {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+
+  button {
+    width: 340px;
+    height: 60px;
+    background: #ffffff;
+    border: 2px solid rgba(200, 200, 200, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    text-decoration: none;
+
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .start-button {
+    width: 90%;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #00a651;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+  }
+}
+.ad-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.ad-image {
+  width: 80%;
+  border-radius: 8px;
+  margin: 20px 0;
+}

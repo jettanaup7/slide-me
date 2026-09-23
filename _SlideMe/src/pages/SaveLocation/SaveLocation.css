@@ -1,0 +1,135 @@
+.page-container {
+  height: 732px;
+}
+
+.buttons-container2 {
+  text-align: center;
+}
+
+.save-button {
+  width: 90%;
+  padding: 15px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #00a651;
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.save-button:hover {
+  background-color: #10804a;
+}
+
+.card-title {
+  color: #000000;
+  font-style: normal;
+  font-weight: 70;
+  font-size: 15px;
+}
+.address-list {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.address-container {
+  display: grid;
+  grid-row: 1fr;
+  text-align: left;
+  span {
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Show ellipsis for overflowed text */
+  }
+}
+
+.buttons-container3 {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.address-button {
+  margin-right: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 80%;
+  height: 60px;
+  display: flex;
+  background: #ffffff;
+  border: 2px solid rgba(200, 200, 200, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.address-button .bi-house-door-fill {
+  color: #4caf50;
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+.address-button-pin {
+  margin-right: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  background: #ffffff;
+  border: 2px solid rgba(200, 200, 200, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.address-button-pin .bi-geo-alt-fill {
+  color: #00a651;
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+.button-actions {
+  display: flex;
+  gap: 10px; /* Create space between buttons */
+}
+
+.edit-button,
+.delete-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border: 2px solid rgba(200, 200, 200, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.edit-button {
+  background-color: #00a651;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #10804a;
+}

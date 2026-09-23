@@ -1,0 +1,87 @@
+.register-container {
+  text-align: center;
+  align-self: center;
+  gap: 1rem;
+  height: 780px;
+  overflow-y: scroll;
+}
+
+.register-text-center {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+  font-weight: bold;
+  color: #01c063;
+}
+
+.register-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+
+  .input-container {
+    text-align: left;
+  }
+
+  .input-container .title {
+    margin-left: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+  }
+
+  .input-container .register-input-bar {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 343px;
+    height: 60px;
+
+    padding: 20px;
+    font-size: 18px;
+
+    background-color: #ffffff;
+    border: 3px solid rgba(200, 200, 200, 0.5);
+    border-radius: 10px;
+  }
+
+  .input-container .register-input-bar-1 {
+    width: 259.317px;
+    height: 50px;
+
+    border-radius: 10px;
+    background-color: #ffffff;
+
+    padding: 20px;
+    font-size: 18px;
+
+    background-color: #ffffff;
+    border: 3px solid rgba(200, 200, 200, 0.5);
+    border-radius: 10px;
+  }
+}
+
+.send-otp {
+  margin-left: 10px;
+  padding: 8px 10px;
+
+  color: white;
+  cursor: pointer;
+
+  background: #01c063;
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.send-otp:hover {
+  background-color: #218838;
+}

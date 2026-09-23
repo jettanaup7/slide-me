@@ -1,0 +1,101 @@
+.propayment-container {
+  /* border: 1px solid red; */
+  height: 732px;
+}
+
+.back-button-container {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.driver-container {
+  height: auto;
+  width: 347px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.button-container {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.price-container {
+  height: 7rem;
+  width: 347px;
+  border-radius: 10px;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.price-thai {
+  text-align: right;
+  align-items: right;
+}
+
+.payment {
+  text-align: right;
+  align-items: right;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-top: 5px;
+
+  font-size: 15px;
+  color: white; /* หรือ red ตามต้องการ */
+}
+
+.driver-icon {
+  display: block;
+  width: 70px;
+  height: 70px;
+  float: left; /* ชิดซ้าย */
+  margin: auto 0; /* กึ่งกลางแนวตั้ง */
+}
+
+.head-driver {
+  margin: 10px;
+}
+
+.driver {
+  margin-left: 10px;
+  text-align: left;
+  justify-content: left;
+}
+
+.status {
+  color: sienna;
+}
